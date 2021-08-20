@@ -49,13 +49,24 @@ h1{
 
 .loginbox input[type="text"], input[type="password"]
 {
-    border: none;
-    border-bottom: 1px solid #fff;
+    border: 2px solid #8a5d5d;
+    border-radius: 10px;
     background: transparent;
     outline: none;
     height: 40px;
-    color: #fff;
-    font-size: 16px;
+    color: rgba(0, 0, 0, 0.993);
+    font-size: 15px;
+}
+.loginbox input[type="text"]:focus, input[type="password"]:focus
+{
+    
+    border-radius: 10px;
+    background: transparent;
+    background-color:#ababce;
+    outline: none;
+    height: 40px;
+    color: rgba(0, 0, 0, 0.993);
+    font-size: 15px;
 }
 .loginbox input[type="submit"]
 {
@@ -84,9 +95,6 @@ h1{
 {
     color: #ceb772;
 }
-
-
-
 
 
 
